@@ -10,11 +10,11 @@ jobs:
         secrets:
           - kv_api_ver: kv2
 #           - namespace:
-#             - name: ns1
+#             - name: secret
 #             - language_used/compiler
-          - ns1/language_used
-          - ns1/language_used/compiler
-#           - ns2/project_id/secret_key_b
+          - secret/language_used
+          - secret/language_used/compiler
+#          
       script:
         - echo $LANGUAGE_USED
         - echo $COMPILER
