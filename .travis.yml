@@ -6,7 +6,7 @@ jobs:
       vault:
         api_url: https://vault-dwztla.travis-ci.com
         token: 
-          secure: "ehzimvuK0JC6S3iMGuDJm7EJeLu6or3SS2H0o7Ohrp80DithmPqkFx3XFqHZmiKPa4DVMBO09Y/AUO8Vdb6HS3cZS4OxmIBiUcCiV65NxWrOVNpNcIb+WD9RUQ9RWpjqEDqDblu2bD9s0EnZUsMDl5vh9lHpKF702i+bHuDpenXvrsYrmLKYn3K9LoH4OTqsWAirEl5AjR4V0DQrEXHv9U+YnIMGuOqRstQOfIx/MntCasBk8msR0smPyr5LU76BBoRXjwAGREt8XENJk7hd0tYwlFbHL964HmdIDwXVT2uXu4mTUnQd4Du+ZawosjuGx919SzS9NHrZQtXRk8HLfO1Zx57fgdTdgm99BsxEu/AQCZqvcWEeZJaCbahc9m0npjfnhDd2ZbVqs3ejK6UPzRfHwXWtf5OLlVFx2aK8RvNIBzxES10uV251xrn/9MIAgA+OHuxyfZUp+hXqZIEteZdw1Q/HY5sAjVBxPuVKj5Mu9woPXyfxsJfx0Xo27BuAdDCBR5s6Ek1kT64UHxuAgYFKqKP7yIZvGzIQEF/+OESh8blgSj5YqIsNhBQvGr13BoqhNddvcQnJaFXZcQvclW+MawM3l0AN+TEbZUdnki4MwaNRAu480FfFXa38sUsHcLslfsMUxR3TOtSJPs29POFOYBGJXca2tOT0yzJ+da0="
+          secure: "B5y/RFp+tpJK5qXrVGbGdTc8pAvnguRxwwKENj5VSdP1uy7KxoVUnNLhDrDr2Ngs8/RZ/92a2UP0yXct0+wtGdZKNhtxGFpccmFf5I8YuKtT1fk+JZWVOKuGrYsuYSAhUfRk/bDj0koXkTUJO0m9k9UHBGkOgjciZC9TU7FNNAy1vF/br5l3vigrFovbY+h3WIEiuoIn4wSERbLAosMgS9fZXsCFpj3sySH6qgx2CODmzUFunImNopoRfEFqN/9DkswVYgBDAkhCJU65CarEvLLq3V9wm+zM4+eHIozcFL0XnS8eevcprfM35DJQXHEcnhPvpb38VZrM9X9NCEwg8V9W5pwfD/XGzvlrs8+CJTwtRgddoUMMDjJepUhNIAC0cK4tDNlFZ3Ebc7gmbHjyOI19114LWCH7UPsu5Co+2cSl9K1A0sUag1vQlsuGgmbE5/1poisT1RYxN2u/cLvw+GC1PmVLXSa2k9LMA6v6Ya+6b8l1xkRunGh9qmtSoEfT+efrJkOkmXlh8MQwRjUNyOLlYh1yLW5G0p6nq77pYsbu6ktZXFIA03h3BxZTLRwDahvUbabcJGX3dBxIOPaXjB0b4ce3H1OMomwLUYIp8rZKyB70i33s1bNNqyKx6VFwAqFxGBMy3V+de+0xLmaqgWYaSJTDpwbDld3gr2aWw8E="
         secrets:
           - kv_api_ver: kv2
 #           - namespace:
