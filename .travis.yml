@@ -1,0 +1,20 @@
+jobs:
+  include:
+    - os: linux
+      dist: focal
+      language: python
+      vault:
+        api_url: https://vault-dwztla.travis-ci.com
+        token: 
+          secure: "ehzimvuK0JC6S3iMGuDJm7EJeLu6or3SS2H0o7Ohrp80DithmPqkFx3XFqHZmiKPa4DVMBO09Y/AUO8Vdb6HS3cZS4OxmIBiUcCiV65NxWrOVNpNcIb+WD9RUQ9RWpjqEDqDblu2bD9s0EnZUsMDl5vh9lHpKF702i+bHuDpenXvrsYrmLKYn3K9LoH4OTqsWAirEl5AjR4V0DQrEXHv9U+YnIMGuOqRstQOfIx/MntCasBk8msR0smPyr5LU76BBoRXjwAGREt8XENJk7hd0tYwlFbHL964HmdIDwXVT2uXu4mTUnQd4Du+ZawosjuGx919SzS9NHrZQtXRk8HLfO1Zx57fgdTdgm99BsxEu/AQCZqvcWEeZJaCbahc9m0npjfnhDd2ZbVqs3ejK6UPzRfHwXWtf5OLlVFx2aK8RvNIBzxES10uV251xrn/9MIAgA+OHuxyfZUp+hXqZIEteZdw1Q/HY5sAjVBxPuVKj5Mu9woPXyfxsJfx0Xo27BuAdDCBR5s6Ek1kT64UHxuAgYFKqKP7yIZvGzIQEF/+OESh8blgSj5YqIsNhBQvGr13BoqhNddvcQnJaFXZcQvclW+MawM3l0AN+TEbZUdnki4MwaNRAu480FfFXa38sUsHcLslfsMUxR3TOtSJPs29POFOYBGJXca2tOT0yzJ+da0="
+        secrets:
+          - kv_api_ver: kv2
+#           - namespace:
+#             - name: ns1
+#             - language_used/compiler
+          - ns1/language_used
+          - ns1/language_used/compiler
+#           - ns2/project_id/secret_key_b
+      script:
+        - echo $LANGUAGE_USED
+        - echo $COMPILER
