@@ -6,7 +6,7 @@ jobs:
       vault:
         api_url: https://vault-cluster-public-vault-ba7a4467.2325b1cf.z1.hashicorp.cloud:8200
         token: 
-          secure: "IiPoVQ4cCi2NefThSOpmGGZ3CuOojPOxGDYMxwQ2IaHD/KkTUdzjT7QR41WrN1V24sYZ7GkXj9E4Ylx1tSgvlDlfO4wfTCLionnvzhQ+BBStT6HKx1hFUZZ3N34NgLxiiU7k+bjHeLWQWNN1IOWjfaAFvDK3YWd6J7wBpzjafyU/OH/JD8u8/lB74zKXr/b0UXEEW3Pn3j6BSEvb8XUq4Ls4PWtvXEP+lxE4igr6tJT+eKjY5k4UGnkoejDklWssEk4pLlGxKkYkCgTapU5cCZsIsWsi1+e4+8nsTQM4X2D1tMaHEbZFa4J+Ph40wiBSB3AxIGbW3Mg0zNzZvLtXqVVvNZsZZlKFH58Cf7IkFEQmXSzgeFy3ibsC19Hj8Myo2Zllct98NLV3zLH73pwwdTU+phWtvwCHXgBki/VVl2oqF6ZOEnHV3VMUoyOUMBkqTVM7JoPKhxIT8v3SgYvL96I49ov0jfpl7t4es5UN7A1lngcmm4Cs/b2RAKCLujrhlT30Z84alRt0utGv+ckm7dKHUeDrDpNdKXZ63pfhATK2P6SnSAtLEOwMG8FWPrs7SXd3jrz1KO9u6JY44FWQpZFOqzGUs+Hd0F1Ohv3WVXi8BG9XN9qLgzCCFxo6n0apQ1xKXWwLoQbdA2MMxPpeISPiizBFNEbHMq+H0GatTQw="
+          secure: "XNHNmboelEzQo7VzSzr73+OHF1RgY+FA/P9Uqxb9nv0Azak8vzfVUa3YBfzkKg5FGaedoBVIufNo9g+Nr+QV20k+vw5zBfkvGb0MG2f+z1kmlL32x4WYi8ZAmR9dixihnIXedN3j8x853Epug/1MhuNDz3tcRuCf0OyAOSSEHaKwI8MP9riGqWlfLoW2/uPmu/Uqp52wSFTiEr4paynOXJqGQTjN+3jrFNcbwPG+40OMvfLq16T71oV6iHVM6iZRD0A87FizPvCocgylCWoEKapH25vvahH+iagsCqpBQkuzf+QvALIFuczqcmSTsAvGNGx2J9HgTaye4yc22TPGtZoqf84yCmGqJ2EoyN75ceWU0jyztaUtwLxSoNsfljEhk45quwC2AnuQrCcOUwnysUooucNNS1lV5EIXmLFvcWM9eVU5Mp91yH0ZiLtbjeuQkgh6R9ZyIDt0/D5Ad8P+LhDhkpSi18K1hotx+52uODO9yXOXJBupaC0/lFRikCiDZRJLjl0JaoX7si2zxJ7IbiJyl7a3mZBIXaNMJPJ2AdMk3l2Nv2yLpS+t1sQaiF1VZxOcgo3tjzbNoBoXFThyvvZpXxGIh3BU8uDmR69pNQb6zK2bUKNiRQ6v6p5EM+Eg2wfURR+OrGm1JAo/hDzYs7F4J4b+TneGsNavr+e9sGU="
         secrets:
           - kv_api_ver: kv2
           - namespace:
