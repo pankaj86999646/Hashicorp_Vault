@@ -13,7 +13,7 @@ jobs:
           - name: secret
               - language_used
              - language_used/compiler
-          - language_used/compilerr
+          - language_used/compiler
        
       script:
         - echo $LANGUAGE_USED
