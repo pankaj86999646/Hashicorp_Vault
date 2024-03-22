@@ -11,9 +11,9 @@ jobs:
           - kv_api_ver: kv2
           - namespace:
           - name: secret
-          - language_used/compiler
-          - secret/language_used
-          - secret/language_used/compiler
+              - language_used
+             - language_used/compiler
+          - language_used/compilerr
        
       script:
         - echo $LANGUAGE_USED
